@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>狂歡之後｜大甲媽祖遶境的環境代價</title>
+<style>
+:root{--ink:#202b29;--muted:#65716d;--paper:#f7f5ef;--card:#fffdf8;--line:#d9ddd5;--green:#315b4b;--orange:#c56b42;--pale:#e9eee7;--serif:Georgia,"Noto Serif TC","Songti TC",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;line-height:1.75}
+a{color:#245b4a;text-decoration-thickness:1px;text-underline-offset:3px;overflow-wrap:anywhere}a:hover{color:#a64f2d}
+.topline{height:6px;background:linear-gradient(90deg,var(--green) 0 68%,var(--orange) 68%)}
+header{max-width:1120px;margin:auto;padding:42px 28px 26px}
+.kicker{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:800}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.28}h1{font-size:clamp(2.25rem,6vw,4.8rem);letter-spacing:-.04em;margin:.45rem 0 1rem;max-width:900px}
+.deck{font-size:1.12rem;max-width:760px;color:#46534e}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:.78rem;color:var(--muted);background:#fffaf0}
+nav{position:sticky;top:0;z-index:10;background:rgba(247,245,239,.96);backdrop-filter:blur(12px);border-block:1px solid var(--line)}
+.navinner{max-width:1120px;margin:auto;display:flex;gap:4px;padding:8px 18px;overflow-x:auto}
+.tab{border:0;background:transparent;color:var(--muted);padding:11px 15px;border-radius:6px;white-space:nowrap;font:inherit;font-weight:700;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--green);color:white}
+main{max-width:1120px;margin:auto;padding:26px 28px 70px}
+.panel{display:none;animation:fade .22s ease}.panel.active{display:block}@keyframes fade{from{opacity:.35;transform:translateY(4px)}to{opacity:1;transform:none}}
+.chapterhead{display:grid;grid-template-columns:1fr minmax(180px,280px);gap:26px;align-items:end;border-bottom:1px solid var(--line);padding:20px 0 24px;margin-bottom:28px}
+.eyebrow{font-size:.78rem;color:var(--orange);font-weight:800;letter-spacing:.12em}
+h2{font-size:clamp(1.8rem,4vw,3rem);margin:.35rem 0 .8rem}
+.lede{font-family:var(--serif);font-size:1.18rem;color:#46534e;max-width:720px}
+.chapter-no{font-family:var(--serif);font-size:clamp(3.5rem,9vw,7rem);line-height:1;color:#d7ddd4;text-align:right}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;min-width:0}
+.span8{grid-column:span 8}.span7{grid-column:span 7}.span6{grid-column:span 6}.span5{grid-column:span 5}.span4{grid-column:span 4}.span12{grid-column:span 12}
+h3{font-size:1.3rem;margin:0 0 10px}.small{font-size:.86rem;color:var(--muted)}.quote{font-family:var(--serif);font-size:1.24rem;line-height:1.65;border-left:4px solid var(--orange);padding:4px 0 4px 18px;margin:18px 0}.quote cite{display:block;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--muted);font-style:normal;margin-top:9px}
+.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.stat{background:var(--pale);padding:15px;border-radius:8px}.stat b{display:block;font-size:clamp(1.4rem,3vw,2.25rem);font-family:var(--serif);color:var(--green);line-height:1.2}.stat span{font-size:.8rem;color:#53635b}
+.chartwrap{overflow-x:auto}.chart{width:100%;min-width:530px;height:auto;display:block}.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:10px 0}.swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;vertical-align:top;padding:10px 9px;border-bottom:1px solid var(--line)}th{font-size:.78rem;color:var(--muted);font-weight:800}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{font-size:.87rem;background:#f2eee3;border-radius:8px;padding:13px 15px;color:#4f554c}
+.source-list{padding-left:1.2rem}.source-list li{margin:0 0 12px}.source-list a{font-weight:700}.source-list .small{display:block;margin-top:2px}
+.photo{margin:14px 0 0}.photo img{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#e9eee7}.photo figcaption{font-size:.78rem;color:var(--muted);margin-top:7px;line-height:1.55}.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.photo-grid .photo{margin:0}.photo-grid img{height:230px;object-fit:cover}@media(max-width:600px){.photo-grid{grid-template-columns:1fr}.photo-grid img{height:auto}}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:14px}.checklist{padding:0;list-style:none}.checklist li{border-bottom:1px solid var(--line);padding:10px 0}.checklist li:before{content:"□";font-size:1.2rem;margin-right:10px;color:var(--green)}
+.tag{display:inline-block;background:#f5e6dd;color:#8b482d;border-radius:4px;padding:2px 7px;font-size:.75rem;font-weight:800}
+footer{border-top:1px solid var(--line);padding:25px 28px 40px;color:var(--muted);font-size:.82rem}
+footer .inner{max-width:1120px;margin:auto}.footgrid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:720px){header{padding:30px 18px 22px}main{padding:16px 16px 48px}.chapterhead{grid-template-columns:1fr}.chapter-no{display:none}.span8,.span7,.span6,.span5,.span4{grid-column:span 12}.statrow{grid-template-columns:1fr 1fr}.split,.footgrid{grid-template-columns:1fr}.card{padding:17px}nav .navinner{padding-inline:10px}}
+@media print{nav,.upload,.clear-img{display:none}.panel{display:block!important;page-break-before:always}.card{break-inside:avoid}body{background:white}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="kicker">環境報導 · 公共資料整理</div>
+  <h1>狂歡之後，<br>誰來收拾？</h1>
+  <p class="deck">大甲媽祖遶境帶來信仰、陪伴與地方人潮，也留下需要被清理的垃圾與炮屑。從官方清運紀錄、接力清掃的人力，到源頭減量宣導，這份資料報導嘗試把「熱鬧之後」的環境工作說清楚。</p>
+  <div class="meta"><span class="pill">資料整理：2017、2019、2020、2023–2026</span><span class="pill">主要來源：臺中市政府／環保局</span><span class="pill">資料更新：2026-10-10</span></div>
+</header>
+<nav aria-label="篇章切換"><div class="navinner">
+<button class="tab" role="tab" aria-selected="true" data-tab="waste">01　歷年清運量</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="people">02　環境維護人力</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="policy">03　政府減廢措施</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="local">04　大甲在地場域</button>
+</div></nav>
+<main>
+<section class="panel active" id="waste" role="tabpanel">
+  <div class="chapterhead"><div><div class="eyebrow">CHAPTER 01 / THE CLEANUP</div><h2>清運量有多大？先看清楚數字的邊界</h2><p class="lede">官方新聞稿提供了一個可見的切面：遶境起駕後至隔日上午，清潔人員與志工清出了多少一般垃圾與資源回收物。但這不是整段九天八夜活動的總量，也不是完整的環境足跡。</p></div><div class="chapter-no">01</div></div>
+  <div class="grid">
+    <article class="card span8">
+      <h3>起駕首夜至隔日上午：官方公布清運量</h3>
+      <p class="small">單位：公噸。總量為一般垃圾＋資源回收物的算術加總；不是另行公布的官方總量。</p>
+      <div class="legend"><span><i class="swatch" style="background:#315b4b"></i>一般垃圾</span><span><i class="swatch" style="background:#d68a5e"></i>資源回收物</span></div>
+      <div class="chartwrap"><svg id="wasteChart" class="chart" viewBox="0 0 720 390" role="img" aria-label="各年官方公布的清運量堆疊長條圖"></svg></div>
+      <p class="note">閱讀提醒：各年新聞稿的統計時間描述大致相近，但行政紀錄的估算方式、現場人潮、路線及分類回收情況可能不同。請把它視為「特定清掃時段的紀錄」，不要直接解讀為整場活動的年度環境影響排名。</p>
+    </article>
+    <article class="card span4">
+      <h3>2026 年這個切面</h3>
+      <div class="statrow" style="grid-template-columns:1fr">
+        <div class="stat"><b>12.8 噸</b><span>一般垃圾</span></div>
+        <div class="stat"><b>60 公斤</b><span>資源回收物（0.06 噸）</span></div>
+        <div class="stat"><b>12.86 噸</b><span>兩項加總（自行計算）</span></div>
+      </div>
+      <p>臺中市政府公布，2026 年 4 月 17 日起駕，清運統計截至隔日上午；同篇報導提到超過 3,000 名環保志工與 200 多名清潔人員。</p>
+      <p class="small">來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/3257021" target="_blank" rel="noopener">臺中市政府，2026/04/18</a></p>
+    </article>
+    <article class="card span12">
+      <h3>年度資料表與來源核對</h3>
+      <div class="chartwrap"><table><thead><tr><th>年度</th><th>一般垃圾（噸）</th><th>資源回收物（噸）</th><th>加總（噸）</th><th>來源與統計範圍</th></tr></thead><tbody id="wasteRows"></tbody></table></div>
+      <p class="note"><b>資料選用原則：</b>2017 年官方頁面明確標示 2017/03/25；2019 年頁面標示 2019/04/09。2020、2023–2026 年數字取自臺中市政府／環保局的活動新聞稿。表內皆是「起駕首夜至隔日上午」附近的短時段清運紀錄，仍須保留各篇原始敘述，避免將其寫成全程總量。</p>
+    </article>
+    <article class="card span6">
+      <h3>數字能支持什麼？</h3>
+      <ul><li>特定清掃時段確實有以公噸計的垃圾清運量。</li><li>官方資料會分列一般垃圾與資源回收物。</li><li>清運工作與志工、清潔隊的接力維護同時發生。</li></ul>
+    </article>
+    <article class="card span6">
+      <h3>數字還不能回答什麼？</h3>
+      <ul><li>不能直接推算整個九天八夜的垃圾總量。</li><li>不能單靠這些數字證明減廢宣導「有效」或「無效」。</li><li>不能把臺中市沿線清運量全部當成大甲區單區數據。</li></ul>
+    </article>
+    <article class="card span12"><h3>清運現場｜從數字回到現場</h3><div class="photo-grid">
+      <figure class="photo"><img src="https://www.taichung.gov.tw/media/1234107/%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E7%99%BB%E5%A0%B4-%E9%80%BE3000%E5%90%8D%E7%92%B0%E4%BF%9D%E8%8B%B1%E9%9B%84%E5%8D%94%E5%8A%9B%E6%B8%85%E7%90%86%E5%B8%82%E5%AE%B9-2.jpg" alt="志工清掃遶境後街道" loading="lazy"><figcaption>遶境後的街道清掃。來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/2952987" target="_blank" rel="noopener">臺中市政府</a>。</figcaption></figure>
+      <figure class="photo"><img src="https://www.taichung.gov.tw/media/1234106/%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E7%99%BB%E5%A0%B4-%E9%80%BE3000%E5%90%8D%E7%92%B0%E4%BF%9D%E8%8B%B1%E9%9B%84%E5%8D%94%E5%8A%9B%E6%B8%85%E7%90%86%E5%B8%82%E5%AE%B9-1.jpg" alt="清潔人員與志工整理街道上的廢棄物" loading="lazy"><figcaption>志工接力清理道路與炮屑。來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/2952987" target="_blank" rel="noopener">臺中市政府</a>。</figcaption></figure>
+    </div></article>
+  </div>
+</section>
+<section class="panel" id="people" role="tabpanel">
+  <div class="chapterhead"><div><div class="eyebrow">CHAPTER 02 / PEOPLE BEHIND THE SCENE</div><h2>人潮散去，清掃才剛開始</h2><p class="lede">新聞裡的清潔成果，不只是一個噸數，也是一段跨越黑夜與清晨的勞動。官方資料常公布「預計動員」或「號召」的人力，這與逐一點名後的實際出勤人數並不完全相同。</p></div><div class="chapter-no">02</div></div>
+  <div class="grid">
+    <article class="card span7">
+      <h3>官方公布的人力規模</h3>
+      <div class="statrow"><div class="stat"><b>3,000+</b><span>環保志工規模（多年度官方表述）</span></div><div class="stat"><b>200+</b><span>清潔人員／清潔隊人力規模</span></div><div class="stat"><b>黑夜→白天</b><span>沿遶境路線接力掃街</span></div></div>
+      <p>2023、2024、2025、2026 年官方報導都描述志工與清潔人員沿路清掃、處理一般垃圾及炮屑。這些人力數字通常是「號召、預計或動員規模」，不應在沒有簽到資料時寫成精確實到人數。</p>
+      <p class="small">來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/2337485" target="_blank" rel="noopener">臺中市政府，2023</a>；<a href="https://www.epb.taichung.gov.tw/2954044/post" target="_blank" rel="noopener">臺中市環保局，2025</a>；<a href="https://www.taichung.gov.tw/8868/8872/9962/3257021" target="_blank" rel="noopener">臺中市政府，2026</a></p>
+    </article>
+    <article class="card span5">
+      <h3>清掃工作的現場內容</h3>
+      <ul class="checklist"><li>隊伍經過後，沿線人員接力掃街。</li><li>清理一般垃圾、煙蒂、炮屑與炮枝等。</li><li>在部分人潮集中處設置分類架、安排志工協助分類。</li><li>目標是儘快恢復道路與周邊市容。</li></ul>
+      <p class="small">以上為官方報導中描述的工作，不代表每個路段都採取完全相同配置。</p>
+    </article>
+    <article class="card span6">
+      <h3>清掃範圍｜沿線接力，不只在廟埕</h3>
+      <p>臺中市環保局 2025 年公告指出，清潔人員跨區動員，與 3,000 多名環保志工沿遶境路線接力清掃；公告提及大甲區清潔隊在人潮集中處設置資源分類架並安排人員協助分類。</p>
+      <p>因此，這份報導把「清掃範圍」標示為遶境路線上的臺中沿線工作，不把整體清運量拆成大甲區專屬數據。</p>
+      <p class="small">來源：<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/2954044" target="_blank" rel="noopener">臺中市環保局，2025</a></p>
+    </article>
+    <article class="card span6">
+      <h3>垃圾從哪裡來？官方報導提到的清理項目</h3>
+      <div class="statrow" style="grid-template-columns:1fr 1fr">
+        <div class="stat"><b>一般垃圾</b><span>官方以公噸公布清運量</span></div>
+        <div class="stat"><b>炮屑／炮枝</b><span>清掃報導點名的現場廢棄物</span></div>
+        <div class="stat"><b>煙蒂</b><span>官方呼籲勿隨地丟棄</span></div>
+        <div class="stat"><b>回收物</b><span>另行統計並呼籲分類</span></div>
+      </div>
+      <p class="small">這是新聞稿明確提到的類別，不代表已掌握各類垃圾的完整重量占比。</p>
+      <figure class="photo"><img src="https://www.taichung.gov.tw/media/1234107/%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E7%99%BB%E5%A0%B4-%E9%80%BE3000%E5%90%8D%E7%92%B0%E4%BF%9D%E8%8B%B1%E9%9B%84%E5%8D%94%E5%8A%9B%E6%B8%85%E7%90%86%E5%B8%82%E5%AE%B9-2.jpg" alt="環保志工清掃遶境後街道上的垃圾與炮屑" loading="lazy"><figcaption>圖：遶境後志工清掃街道。圖片來源：臺中市政府，2025 年環保志工清理市容報導。<a href="https://www.taichung.gov.tw/8868/8872/9962/2952987" target="_blank" rel="noopener">查看原始報導</a></figcaption></figure>
+    </article>
+    <article class="card span12">
+      <h3>主要清掃範圍｜使用既有公開路線圖</h3>
+      <p>以下為 2026 年大甲媽祖遶境進香路線圖，呈現整段九天八夜行程經過的縣市與主要駐駕點。它是活動路線資料，不是垃圾清運熱區圖；目前公開新聞稿未提供足夠的分路段垃圾重量，故不以地圖暗示各地垃圾量多寡。</p>
+      <figure class="photo"><img src="https://ihealth.bwnet.com.tw/AC_Gallery/2026/03/8688432f-1f28-b6b3-8b6b-9fd4ffb6252c.png" alt="2026 大甲媽祖遶境九天八夜行程與縣市路線圖" loading="lazy"><figcaption>圖：2026 年遶境行程路線圖。圖片來源：良醫健康網，2026 年遶境日程報導；此圖用於說明整體路線，不代表清運數據。<a href="https://health.businessweekly.com.tw/article/ARTL003010275" target="_blank" rel="noopener">查看原始文章</a>；官方行程亦可參閱<a href="https://www.dajiamazu.org.tw/pilgrimageA4-2" target="_blank" rel="noopener">大甲鎮瀾宮全程表</a>。</figcaption></figure>
+    </article>
+    <article class="card span12">
+      <h3>清掃現場：清運工作是遶境環境管理的一環</h3>
+      <p>以下使用臺中市政府公開新聞稿中的現場照片，呈現活動後的街道清理工作。照片可作為現場情境證據，但不能單憑照片推算垃圾總量、清潔人數或清掃效率；數量仍以各年度新聞稿的文字與統計口徑為準。</p>
+      <div class="photo-grid">
+        <figure class="photo"><img src="https://www.taichung.gov.tw/media/1234106/%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E7%99%BB%E5%A0%B4-%E9%80%BE3000%E5%90%8D%E7%92%B0%E4%BF%9D%E8%8B%B1%E9%9B%84%E5%8D%94%E5%8A%9B%E6%B8%85%E7%90%86%E5%B8%82%E5%AE%B9-1.jpg" alt="清潔人員與志工整理街道上的廢棄物" loading="lazy"><figcaption>清掃現場照片。來源：臺中市政府公開新聞稿，<a href="https://www.taichung.gov.tw/8868/8872/9962/2952987" target="_blank" rel="noopener">查看原文</a>。</figcaption></figure>
+        <figure class="photo"><img src="https://www.taichung.gov.tw/media/1234107/%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E7%99%BB%E5%A0%B4-%E9%80%BE3000%E5%90%8D%E7%92%B0%E4%BF%9D%E8%8B%B1%E9%9B%84%E5%8D%94%E5%8A%9B%E6%B8%85%E7%90%86%E5%B8%82%E5%AE%B9-2.jpg" alt="環保志工清掃遶境後街道上的垃圾與炮屑" loading="lazy"><figcaption>清掃街道與整理廢棄物。來源：臺中市政府公開新聞稿，<a href="https://www.taichung.gov.tw/8868/8872/9962/2952987" target="_blank" rel="noopener">查看原文</a>。</figcaption></figure>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="panel" id="policy" role="tabpanel">
+  <div class="chapterhead"><div><div class="eyebrow">CHAPTER 03 / PREVENTION BEFORE CLEANUP</div><h2>減廢不只靠清掃，也要從源頭開始</h2><p class="lede">自備、重複使用、少用一次性用品，是官方宣導的重要方向；分類回收與兌換活動則讓民眾有更具體的參與方式。但「辦了宣導」與「垃圾因此減少多少」是兩個不同的問題。</p></div><div class="chapter-no">03</div></div>
+  <div class="grid">
+    <article class="card span8">
+      <h3>政府措施一覽</h3>
+      <table><thead><tr><th>措施</th><th>官方資料中的做法</th><th>可確認的證據</th></tr></thead><tbody>
+      <tr><td><b>自備用品</b></td><td>宣導自備餐具、環保杯、購物袋及旅宿備品。</td><td>官方明確發布宣導內容；無法由此直接得知遵從比例。</td></tr>
+      <tr><td><b>分類回收</b></td><td>沿線宮廟設置一般垃圾、資源回收與紙餐具回收設施；部分地點設分類架。</td><td>官方報導提到設施配置；不等於所有垃圾均正確分類。</td></tr>
+      <tr><td><b>源頭減量攤位</b></td><td>2026 年規劃 6 場一次用旅宿用品源頭減量宣導，包含鎮瀾宮遊覽車停車場。</td><td>官方公布場次、時間、地點與互動方式；未公布整體減量成效。</td></tr>
+      <tr><td><b>回收兌換</b></td><td>2023 年於大甲文昌祠及回鑾路線相關地點辦理回收兌換，收集電池、舊電子用品及袋類等。</td><td>官方列出回收品項與數量，屬活動回收成果，不等同遶境全部垃圾減量。</td></tr>
+      </tbody></table>
+    </article>
+    <article class="card span4">
+      <h3>參與者的「減廢三寶」</h3>
+      <div class="statrow" style="grid-template-columns:1fr">
+        <div class="stat"><b>餐具</b><span>重複使用，減少免洗用品</span></div>
+        <div class="stat"><b>環保杯</b><span>自備容器，減少一次性杯具</span></div>
+        <div class="stat"><b>購物袋</b><span>減少臨時使用塑膠袋</span></div>
+      </div>
+      <p class="small">來源：<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局，2026/04/14</a></p>
+    </article>
+    <article class="card span6">
+      <h3>在地措施｜2026 年宣導攤位</h3>
+      <p>臺中市環保局公告共 6 場一次用旅宿用品源頭減量宣導，其中與大甲直接相關的場域包括：</p>
+      <ul><li><b>4 月 17 日 10:30–12:00：</b>大甲鎮瀾宮遊覽車停車場。</li><li><b>4 月 26 日 13:00–14:00：</b>大甲區中山路一段 26-1 號。</li></ul>
+      <p>活動包含乾淨可用二手提袋兌換，以及出示環保餐盒、水壺、環保杯或參與互動問答領取宣導品等方式。</p>
+      <p class="small">來源：<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局公告</a></p>
+    </article>
+    <article class="card span6">
+      <h3>如何判斷措施是否有效？</h3>
+      <p>若要進一步評估政策效果，還需要更多資料，而不是只看活動新聞稿：</p>
+      <ul><li>宣導前後相同時段、相同路段的垃圾量。</li><li>一次性用品使用量或可重複用品使用比例。</li><li>各場宣導參與人次、兌換數量與後續追蹤。</li><li>垃圾分類正確率、回收物污染率等指標。</li></ul>
+      <p class="note">本篇可證明「措施被公告或執行」，但目前資料不足以證明它造成多少淨減量。</p>
+    </article>
+    <article class="card span12"><h3>官方宣導現場｜讓減廢做法看得見</h3><div class="photo-grid">
+      <figure class="photo"><img src="https://www.taichung.gov.tw/media/1229215/%E5%9C%961%E5%A4%A7%E7%94%B2%E5%AA%BD%E7%A5%96%E9%81%B6%E5%A2%83%E8%B3%87%E6%94%B6%E5%AE%A3%E5%B0%8E%E5%8F%8A%E4%BA%8C%E6%89%8B%E8%A2%8B%E5%9B%9E%E6%94%B6%E5%85%8C%E6%8F%9B_0.jpg" alt="大甲媽祖遶境現場的資源回收宣導及二手袋兌換攤位" loading="lazy"><figcaption>資源回收宣導與二手袋回收兌換現場。來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/2945176" target="_blank" rel="noopener">臺中市政府環保減塑宣導</a>。</figcaption></figure>
+      <figure class="photo"><img src="https://image.pronews.tw/2026/04/cf5c37bb07e745b1d45b13327ea50cbc.jpg" alt="遶境活動環保減量宣導攤位" loading="lazy"><figcaption>環保減量宣導攤位。圖片來源：蕃新聞 2026 年相關報導；政策細節以<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局公告</a>為準。</figcaption></figure>
+      <figure class="photo"><img src="https://www.kingtop.com.tw/uploadfiles/l/20260414170012_21268.jpg" alt="遶境沿線環保惜食與分類回收站" loading="lazy"><figcaption>沿線環保惜食與分類回收站。圖片來源：台灣華報相關報導；<a href="https://www.kingtop.com.tw/detail.php?author_id=35&id=48512&type=author" target="_blank" rel="noopener">查看原始報導</a>。</figcaption></figure>
+      <figure class="photo"><img src="https://cdn.ftvnews.com.tw/summernotefiles/News/c906bfe7-1964-486e-9fb4-67f8fb7f5f3a.jpg" alt="遶境環保宣導資訊板與環保行動展示" loading="lazy"><figcaption>遶境環保宣導資訊板。圖片來源：民視新聞相關報導；<a href="https://tw.sports.yahoo.com/tv/tv-partners/%E8%87%AA%E5%82%99-%E9%87%8D%E8%A4%87-%E5%B0%91%E7%94%A8-%E8%B7%9F%E8%91%97%E5%AA%BD%E7%A5%96%E5%81%9A%E7%92%B0%E4%BF%9D%E8%AE%93%E9%81%B6%E5%A2%83%E6%9B%B4%E5%8A%A0%E5%88%86-154002409.html" target="_blank" rel="noopener">查看原始報導</a>。</figcaption></figure>
+    </div></article>
+  </div>
+</section>
+<section class="panel" id="local" role="tabpanel">
+  <div class="chapterhead"><div><div class="eyebrow">CHAPTER 04 / Dajia, THE STARTING POINT</div><h2>從鎮瀾宮出發，但不把整條路線算成大甲</h2><p class="lede">鎮瀾宮是遶境的起點與重要場域。官方資料能指出部分宣導設施、活動攤位與大甲區清潔工作的安排；然而，清運量多以臺中市沿線或起駕首夜整體發布，不能任意拆成大甲區的專屬數字。</p></div><div class="chapter-no">04</div></div>
+  <div class="grid">
+    <article class="card span6">
+      <h3>場域一｜大甲鎮瀾宮</h3>
+      <p>2026 年官方減廢宣導公告指出，遶境沿線宮廟（包含鎮瀾宮）設有一般垃圾、資源回收與紙餐具回收設施；源頭減量宣導攤位也安排在鎮瀾宮遊覽車停車場。</p>
+      <p><span class="tag">大甲在地資訊</span></p>
+      <p class="small">來源：<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局，2026/04/14</a></p>
+    </article>
+    <article class="card span6">
+      <h3>場域二｜大甲區分類架與沿線宮廟</h3>
+      <p>2017、2018/2019 年前後的市府新聞稿曾記載，大甲區設置 30 處資源分類架，每處安排志工協助分類，並輔導沿線宮廟設置資源分類桶。這是歷史措施紀錄，不應未經查證就假設現今配置完全相同。</p>
+      <p><span class="tag">歷史官方紀錄</span></p>
+      <p class="small">來源：<a href="https://www.taichung.gov.tw/8868/8872/9962/871942" target="_blank" rel="noopener">臺中市政府，2018/04/14</a>；<a href="https://www.taichung.gov.tw/8868/8872/9962/993848" target="_blank" rel="noopener">臺中市政府，2017/03/25</a></p>
+    </article>
+    <article class="card span12">
+      <h3>在地與整體資料的標示規則</h3>
+      <div class="split"><div><h3 style="font-size:1.05rem">可標為「大甲在地」</h3><ul><li>鎮瀾宮及其停車場的宣導活動。</li><li>官方明確點名大甲區的分類架、清潔隊工作或回收兌換點。</li><li>有明確地址、時間、公告來源的活動資訊。</li></ul></div><div><h3 style="font-size:1.05rem">應標為「遶境整體／臺中沿線」</h3><ul><li>起駕首夜至隔日上午的整體清運數字。</li><li>涵蓋大甲、清水、沙鹿、龍井、大肚等區的清潔人力。</li><li>跨縣市路線、全程活動描述及未分區的垃圾統計。</li></ul></div></div>
+      <p class="note">這個區分很重要：在地議題不代表每一筆數字都能定位到在地。明確標示資料範圍，能避免把官方的跨區紀錄誤寫成大甲區單區統計。</p>
+    </article>
+    <article class="card span6">
+      <h3>在地宣導活動｜可核對的時間與位置</h3>
+      <ul><li>2026/04/17：大甲鎮瀾宮遊覽車停車場，10:30–12:00。</li><li>2026/04/26：大甲區中山路一段 26-1 號，13:00–14:00。</li></ul>
+      <p class="small">活動時間取自官方公告。若頁面用於日後展示，建議標註為「2026 年已公告活動」，不要寫成目前仍在舉辦。</p>
+      <p class="small">來源：<a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局</a></p>
+    </article>
+    <article class="card span6">
+      <h3>大甲鎮瀾宮周邊｜既有交通管制圖</h3>
+      <p>大甲區公所公布的 2026 年起駕、回鑾交通疏導圖，能辨識鎮瀾宮周邊徒步區、道路管制與接駁／停車相關位置。這是官方交通管制圖，不是垃圾分布圖；本篇用它協助讀者理解人潮集中場域。</p>
+      <figure class="photo"><img src="https://uploads.posu.tw/18/1894/img/S__25297050_0.jpg" alt="2026 大甲鎮瀾宮周邊遶境交通管制示意圖" loading="lazy"><figcaption>圖：2026 大甲鎮瀾宮周邊交通管制示意圖。圖片來源：SJTV 轉載之活動交通管制圖；官方公告與附件見<a href="https://www.dajia.taichung.gov.tw/3917588/post" target="_blank" rel="noopener">臺中市大甲區公所</a>。</figcaption></figure>
+    </article>
+    <article class="card span12">
+      <h3>主要資料來源</h3>
+      <ol class="source-list">
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/993848" target="_blank" rel="noopener">臺中市政府｜大甲媽起駕 3000 環保志工加入遶境掃街</a><span class="small">2017/03/25；清運量、人力、分類架與志工故事。</span></li>
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/871942" target="_blank" rel="noopener">臺中市政府｜大甲媽祖遶境 中市府 3 千環保志工加入掃街</a><span class="small">2018/04/14；清運量、人力、分類架及沿線宮廟回收桶。</span></li>
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/1252204/" target="_blank" rel="noopener">臺中市政府｜大甲媽遶境 3 千環保志工隨行掃街</a><span class="small">2019/04/09；16.3 噸一般垃圾、1.47 噸資源回收物及分類設施。</span></li>
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/1543382" target="_blank" rel="noopener">臺中市政府｜大甲媽祖遶境展開 中市府動用 3 千名人力掃街清潔</a><span class="small">2020；人力規模及防疫背景。該頁搜尋摘要未完整呈現清運數字，數字引用時請再次開啟原文核對。</span></li>
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/2337485" target="_blank" rel="noopener">臺中市政府｜大甲媽祖遶境昨展開 中市府號召 3000 環保英雄接力掃街</a><span class="small">2023；首夜清運量、人力與接力掃街。</span></li>
+        <li><a href="https://www.taichung.gov.tw/2353303/post" target="_blank" rel="noopener">臺中市政府｜2023 大甲媽祖遶境 中市資源回收成果豐碩</a><span class="small">2023；回收兌換活動及各類回收物成果。</span></li>
+        <li><a href="https://www.epb.taichung.gov.tw/17066/17069/17075/3254235" target="_blank" rel="noopener">臺中市環保局｜信仰與環保同行！大甲媽遶境響應減廢換好禮</a><span class="small">2026/04/14；減廢三寶、分類設施、六場源頭減量宣導攤位。</span></li>
+        <li><a href="https://www.epb.taichung.gov.tw/2954044/post" target="_blank" rel="noopener">臺中市環保局｜大甲媽祖遶境活動熱鬧登場！逾 3000 名環保英雄協力清理市容</a><span class="small">2025/04；清運量、清掃內容與志工故事。</span></li>
+        <li><a href="https://www.taichung.gov.tw/8868/8872/9962/3257021" target="_blank" rel="noopener">臺中市政府｜環保英雄與女神同行！大甲媽祖遶境登場</a><span class="small">2026/04/18；清運量、路線與人力規模。</span></li>
+      </ol>
+    </article>
+  </div>
+</section>
+</main>
+<footer><div class="inner footgrid"><div><b>資料與編輯說明</b><p>本頁以官方公開新聞稿為主要資料。新聞稿是行政紀錄與宣導資訊，不等同於完整的環境監測報告。數字、統計時段與地域範圍應連同來源一起閱讀。</p></div><div><b>AI 與圖片說明</b><p>此頁嵌入網路公開報導中的照片與既有路線圖，圖片下方標示來源連結。圖片目前以公開網址載入，因此開啟網頁時需有網路連線；本檔不會讀取使用者本機資料。使用前請依原網站授權與作業規範確認圖片引用方式。</p><p>建議提交前再逐一點開來源，確認標題、發布日期、數字與引用脈絡。</p></div></div></footer>
+<script>
+const DATA = [
+ {year:2017,g:12,r:1.25,period:"起駕後至隔日上午 8 時前",url:"https://www.taichung.gov.tw/8868/8872/9962/993848",label:"臺中市政府（2017/03/25）"},
+ {year:2019,g:16.3,r:1.47,period:"起駕日至隔日上午 8 時",url:"https://www.taichung.gov.tw/8868/8872/9962/1252204/",label:"臺中市政府（2019/04/09）"},
+ {year:2020,g:5.89,r:0.25,period:"起駕後至隔日上午（依原始新聞稿）",url:"https://www.taichung.gov.tw/8868/8872/9962/1543382",label:"臺中市政府（2020）"},
+ {year:2023,g:13.2,r:0.8,period:"起駕首夜至隔日上午",url:"https://www.taichung.gov.tw/8868/8872/9962/2337485",label:"臺中市政府（2023）"},
+ {year:2024,g:16.65,r:0.845,period:"起駕首夜至隔日上午（依原始新聞稿）",url:"https://cleaner.epb.taichung.gov.tw/newsmain.aspx?n_id=10857",label:"臺中市環保局（2024）"},
+ {year:2025,g:16.3,r:0.2,period:"起駕首夜至隔日上午",url:"https://www.epb.taichung.gov.tw/2954044/post",label:"臺中市環保局（2025/04）"},
+ {year:2026,g:12.8,r:0.06,period:"起駕至隔日上午",url:"https://www.taichung.gov.tw/8868/8872/9962/3257021",label:"臺中市政府（2026/04/18）"}
+];
+const fmt=n=>Number(n).toLocaleString("zh-TW",{maximumFractionDigits:3});
+document.getElementById("wasteRows").innerHTML=DATA.map(d=>`<tr><td class="num"><b>${d.year}</b></td><td class="num">${fmt(d.g)}</td><td class="num">${fmt(d.r)}</td><td class="num">${fmt(d.g+d.r)}</td><td>${d.period}<br><a href="${d.url}" target="_blank" rel="noopener">${d.label}</a></td></tr>`).join("");
+(function drawChart(){
+ const svg=document.getElementById("wasteChart"), ns="http://www.w3.org/2000/svg";
+ const add=(tag,attrs,text)=>{let e=document.createElementNS(ns,tag);Object.entries(attrs||{}).forEach(([k,v])=>e.setAttribute(k,v));if(text!==undefined)e.textContent=text;svg.appendChild(e);return e};
+ const W=720,H=390,left=68,right=20,top=22,bottom=54,plotH=H-top-bottom,plotW=W-left-right,max=20;
+ [0,5,10,15,20].forEach(v=>{let y=top+plotH-(v/max)*plotH;add("line",{x1:left,y1:y,x2:W-right,y2:y,stroke:"#d9ddd5","stroke-width":1});add("text",{x:left-12,y:y+4,"text-anchor":"end",fill:"#65716d","font-size":12},String(v));});
+ const step=plotW/DATA.length,bw=Math.min(48,step*.58);
+ DATA.forEach((d,i)=>{let x=left+i*step+(step-bw)/2;let gh=d.g/max*plotH,rh=d.r/max*plotH;let gy=top+plotH-gh;let ry=gy-rh;
+ add("rect",{x,y:gy,width:bw,height:gh,rx:3,fill:"#315b4b"});add("rect",{x,y:ry,width:bw,height:Math.max(2,rh),rx:2,fill:"#d68a5e"});
+ add("text",{x:x+bw/2,y:H-28,"text-anchor":"middle",fill:"#39443f","font-size":13,"font-weight":700},String(d.year));
+ add("text",{x:x+bw/2,y:Math.max(14,ry-7),"text-anchor":"middle",fill:"#39443f","font-size":11},fmt(d.g+d.r));
+ });
+ add("text",{x:16,y:top+plotH/2,transform:`rotate(-90 16 ${top+plotH/2})`,"text-anchor":"middle",fill:"#65716d","font-size":12},"公噸");
+})();
+document.querySelectorAll(".tab").forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",String(b===btn)));
+ document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active",p.id===btn.dataset.tab));
+ window.scrollTo({top:document.querySelector("nav").offsetTop,behavior:"smooth"});
+}));
+</script>
+</body>
+</html>
